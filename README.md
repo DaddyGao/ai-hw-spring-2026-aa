@@ -97,6 +97,5 @@ Here is the performance breakdown of the model under an adversarial environment:
 * **Key Takeaway:** High baseline accuracy does **not** equal structural model security.
 * Standard empirical risk minimization makes models highly vulnerable to intentional out-of-distribution math noise.
 * **Future Work:** To mitigate this absolute failure, the network would require defensive strategies like **Adversarial Training** (injecting PGD examples back into the training loop).
-* Thank you! Any questions?
 
-*🗣️ **Notes:** In conclusion, this experiment teaches us a vital lesson in machine learning security: high accuracy under normal testing criteria does not mean a model is robust. Standard networks are highly fragile to worst-case distribution shifts. To fix this 100% failure rate, future iterations of this model would require defense mechanisms like adversarial training—where the model trains directly on PGD examples to learn how to resist them. Thank you for your time, and I'd be happy to take any questions.*
+*🗣️ **Notes:** In conclusion, this experiment teaches us a vital lesson in machine learning security: high accuracy under normal testing criteria does not mean a model is robust. Standard networks are highly fragile to worst-case distribution shifts. To fix this 100% failure rate, future iterations of this model would require defense mechanisms like adversarial training—where the model trains directly on PGD examples to learn how to resist them.*
